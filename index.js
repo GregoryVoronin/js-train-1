@@ -349,7 +349,7 @@ function compose(func1, func2) {
   // Повертаємо нову функцію, яка приймає аргумент n
   // Повертаємо func2, в яку передаємо func1 з аргументом n
 }
-let createCompose = compose(increment,doubl);
+let createCompose = compose(increment,double);
 // Створюємо змінну createCompose якій присвоємо результат виконання функції compose з аргументами increment та double
 console.log("Завдання 17 ====================================");
 // Розкоментуйте після виконаня завдання
